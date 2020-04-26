@@ -7,7 +7,7 @@
 In this project, we use multiple twitter data source via web scraping and existing datasets. We first **implement Xgboost model to detect social bots**. Then, we use the labels derived from the social bots detection to conduct three parallel studies including **network analysis using Hubs and Authorities Algorithm (HITS), topic modeling using LSA, NMF, LDA and sentiment analysis using textblob** in order to identify the difference between bots and humans in terms of importance scores, topic trends and sentimental affecting mechanism.    
 
 The overall pipeline works like:  
-1. data scraping => 2. social bots detection => 3. network analysis & topic modeling & sentiment analysis  
+**1. Data Scraping => 2. Social Bots Detection => 3. Network Analysis & Topic Modeling & Sentiment Analysis**  
 
   
 ### Data Resource
