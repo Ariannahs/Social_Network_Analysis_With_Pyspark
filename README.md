@@ -1,7 +1,9 @@
 ## Network Study and the Impact of Social Bots on Public Opinion Polls  
 ##### CS5344 BigData Final Project - Group 2
   
-In this project, we will firstly gather twitter data via both web scraping and existing dataset, then conduct a detection model to distinguish humans from bots. Based on that, we will conduct network analysis to identify the difference between bots and humans in social network. We also implement topic modeling and sentiment analysis aiming to understand trending topics of tweet content and explore the sentimental affecting mechanism from bots to humans.    
+### Introduction  
+  
+In this project, we use multiple twitter data source via web scraping and existing datasets. We first implement xgboost model to detect social bots. Then, we use the labels derived from the social bots detection to conduct network analysis, topic modeling and sentiment analysis to identify the difference between bots and humans in terms of importance scores, topic trends and sentimental affecting mechanism.    
 
 
 ### Data Resource
