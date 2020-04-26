@@ -1,15 +1,19 @@
 ## Network Study and the Impact of Social Bots on Public Opinion Polls  
-##### CS5344 BigData Final Project - Group 2
-  
+##### CS5344 BigData Final Project - Group 2  
+
+   
 ### Introduction  
   
-In this project, we use multiple twitter data source via web scraping and existing datasets. We first implement xgboost model to detect social bots. Then, we use the labels derived from the social bots detection to conduct network analysis, topic modeling and sentiment analysis to identify the difference between bots and humans in terms of importance scores, topic trends and sentimental affecting mechanism.    
+In this project, we use multiple twitter data source via web scraping and existing datasets. We first implement xgboost model to detect social bots. Then, we use the labels derived from the social bots detection part to conduct network analysis, topic modeling and sentiment analysis to identify the difference between bots and humans in terms of importance scores, topic trends and sentimental affecting mechanism.    
+
+The overall pipeline is: 1. data scraping => 2. social bots detection => 3. network analysis & topic modeling & sentiment analysis  
 
 
 ### Data Resource
 
 1. ```tweets_json.json``` : Kaggle dataset - UK General Elections 2019 - Twitter replies  
-This is our main dataset. To run the scripts, **download the dataset from the below link and *place it in the ```data/``` folder***:   
+This is our main dataset. 
+**Notes: To run the scripts, download the dataset from the below link and *place it in the ```data/``` folder***:   
 https://www.kaggle.com/moooozzz/uk-general-elections-2019-twitter-replies/download/d9605jnsmJzxiElRfmA2%2Fversions%2FwQuM603sN8oCEFqejtwX%2Ffiles%2Ftweets_json.json?datasetVersionNumber=1
 
 2. ```data/final_data``` : Scrapped Tweets  
@@ -22,7 +26,7 @@ This labled data is created by us bying merging several open source datasets fro
 https://botometer.iuni.iu.edu/bot-repository/datasets.html
   
 4. ```data/label.csv``` :   
-Label data predicted by the social bots detection model. used in network Analysis, Topic Modeling and Sentiment Analysis  
+Label data derived from the social bots detection part. used in network Analysis, Topic Modeling and Sentiment Analysis  
   
 5. ```data/mp_party.csv``` :   
 This dataset contains twitter account information of candidates for different British Parties manually labeled by us.
@@ -30,6 +34,8 @@ This dataset contains twitter account information of candidates for different Br
 6. ```data/UK_Poll.xlsx``` :   
 This data contains public poll results in a daily basis used in Sentiment Analysis  
 
+7. ```data/edge.csv``` and ```data/node.csv``` :  
+Network dataset created from Network analysis part (```data/node.csv``` is created via the visualization tool - Gephi)
   
 ### Code
 
