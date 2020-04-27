@@ -1,4 +1,4 @@
-## Network Study and the Impact of Social Bots on Public Opinion Polls  
+## Network Study on the Impact of Social Bots on Public Opinion Polls  
 ##### CS5344 BigData Final Project - Group 2  
 
    
@@ -18,36 +18,21 @@ The overall pipeline works like:
   
 ### Data Resource
 
-1. ```tweets_json.json``` : Kaggle dataset - UK General Elections 2019 - Twitter replies  
-This is our main dataset.   
-**Notes: To run the scripts, download the dataset from the below link and 
-*place it in the ```data/``` folder***:   
+1. Main data source: *Kaggle UK General Elections 2019 - Twitter replies*   
+This is a scraped dataset using Twitter API contains more than 300, 000 tweets collected from 16 Nov to 14 Dec concerning the UK 2019 General Election. This is a JSON dump of all the tweets, including full metadata. Each part of the file is one tweet. Refer to the link:   
 https://www.kaggle.com/moooozzz/uk-general-elections-2019-twitter-replies/download/d9605jnsmJzxiElRfmA2%2Fversions%2FwQuM603sN8oCEFqejtwX%2Ffiles%2Ftweets_json.json?datasetVersionNumber=1
 
-2. ```data/final_data``` : Scrapped Tweets  
-This folder contains tweet data in csv files collected by scraping historical tweets 
-that were discussing the UK election or Brexit during that period with GetOldTweets3 
-python package. In addition to the scrapped tweets, the account’s information 
-such as number of friend count, follower count are also collected using Twitter API with Tweepy. 
+2. Other data source:  
+  
+- Scrapped Tweets: scraped data containing historical tweets that were discussing the UK election or Brexit during that period with GetOldTweets3 python package. In addition to the scrapped tweets, the account’s information such as number of friend count, follower count are also collected using Twitter API with Tweepy. 
 
-3. ```data/trainset.csv```: Train set for training xgboost model for social bots detection    
-This labled data is created by us bying merging several open source datasets from 
-https://botometer.iuni.iu.edu/bot-repository/datasets.html .
+- trainset for social bots detection: labled data created by us bying merging several open source datasets from 
+https://botometer.iuni.iu.edu/bot-repository/datasets.html  
   
-4. ```data/label.csv``` :   
-Label data derived from the social bots detection part. Used in network Analysis, 
-Topic Modeling and Sentiment Analysis.  
+- mp party dataset: scarped data containing twitter account information of candidates. Parties information are manually labeled by us.  
   
-5. ```data/mp_party.csv``` :   
-This dataset contains twitter account information of candidates for different British 
-Parties manually labeled by us.
-  
-6. ```data/UK_Poll.xlsx``` :   
-This data contains public poll results in a daily basis used in Sentiment Analysis.  
+- UK Poll dataset: scarped data containing public poll results in a daily basis used in Sentiment Analysis.  
 
-7. ```data/edge.csv``` and ```data/node.csv``` :  
-Network dataset created from Network analysis part (```data/node.csv``` is created 
-via the visualization tool - Gephi).
   
   
 ### Code
