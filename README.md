@@ -12,6 +12,27 @@ scores, topic trends and sentimental affecting mechanism.
 
 The overall pipeline works like:  
 **1. Data Scraping => 2. Social Bots Detection => 3. Network Analysis & Topic Modeling & Sentiment Analysis**  
+  
+
+### Requirements/Packages
+
+- Python3.x
+- PySpark  
+- findspark
+- GetOldTweets3  
+- sklearn  
+- xgboost  
+- nltk  
+- gensim  
+- textblob  
+- pandas  
+- numpy  
+- emot  
+- wget  
+- pyLDAvis  
+- wordcloud  
+- plotly  
+- matplotlib  
 
   
 ### Data Resource
@@ -48,24 +69,3 @@ Topic modeling script including text preprocessing, EDA, modeling and visualizat
 
 5. ```SentimentAnalysis.ipynb``` :  
 Sentiment analysis script including text preprocessing, modeling and visualization  
-  
-
-### Requirements/Packages
-
-- Python3.x
-- PySpark  
-- findspark
-- GetOldTweets3  
-- sklearn  
-- xgboost  
-- nltk  
-- gensim  
-- textblob  
-- pandas  
-- numpy  
-- emot  
-- wget  
-- pyLDAvis  
-- wordcloud  
-- plotly  
-- matplotlib  
