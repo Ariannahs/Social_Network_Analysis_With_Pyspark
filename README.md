@@ -16,8 +16,9 @@ The overall pipeline works like:
   
 ### Data Resource
 
-Main data source: *Kaggle UK General Elections 2019 - Twitter replies*   
-This is a scraped dataset using Twitter API contains more than 300, 000 tweets collected from 16 Nov to 14 Dec concerning the UK 2019 General Election. This is a JSON dump of all the tweets, including full metadata. Each part of the file is one tweet. Refer to the link:   
+Main data source: *Kaggle UK General Elections 2019 - Twitter replies*    
+  
+This is a scraped dataset using Twitter API contains more than 300, 000 tweets collected from 16 Nov to 14 Dec concerning the UK 2019 General Election. This is a JSON dump of all the tweets, including full metadata. Each part of the file is one tweet. Refer to the link: 
 https://www.kaggle.com/moooozzz/uk-general-elections-2019-twitter-replies/download/d9605jnsmJzxiElRfmA2%2Fversions%2FwQuM603sN8oCEFqejtwX%2Ffiles%2Ftweets_json.json?datasetVersionNumber=1
 
 Other data source:  
