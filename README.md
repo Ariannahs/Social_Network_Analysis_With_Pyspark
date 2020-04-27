@@ -1,4 +1,4 @@
-## Network Study and the Impact of Social Bots on Public Opinion Polls  
+## Network Study on the Impact of Social Bots on Public Opinion Polls  
 
    
 ### Introduction  
