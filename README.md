@@ -1,5 +1,4 @@
 ## Network Study and the Impact of Social Bots on Public Opinion Polls  
-##### CS5344 BigData Final Project - Group 2  
 
    
 ### Introduction  
