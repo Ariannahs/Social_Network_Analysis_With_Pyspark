@@ -1,0 +1,15 @@
+findspark
+GetOldTweets3  
+sklearn  
+xgboost  
+nltk  
+gensim  
+textblob  
+pandas  
+numpy  
+emot  
+wget  
+pyLDAvis  
+wordcloud  
+plotly  
+matplotlib  
