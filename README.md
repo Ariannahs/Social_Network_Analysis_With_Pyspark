@@ -16,11 +16,11 @@ The overall pipeline works like:
   
 ### Data Resource
 
-1. Main data source: *Kaggle UK General Elections 2019 - Twitter replies*   
+Main data source: *Kaggle UK General Elections 2019 - Twitter replies*   
 This is a scraped dataset using Twitter API contains more than 300, 000 tweets collected from 16 Nov to 14 Dec concerning the UK 2019 General Election. This is a JSON dump of all the tweets, including full metadata. Each part of the file is one tweet. Refer to the link:   
 https://www.kaggle.com/moooozzz/uk-general-elections-2019-twitter-replies/download/d9605jnsmJzxiElRfmA2%2Fversions%2FwQuM603sN8oCEFqejtwX%2Ffiles%2Ftweets_json.json?datasetVersionNumber=1
 
-2. Other data source:  
+Other data source:  
 1) Scrapped Tweets: scraped data containing historical tweets that were discussing the UK election or Brexit during that period with GetOldTweets3 python package. In addition to the scrapped tweets, the account’s information such as number of friend count, follower count are also collected using Twitter API with Tweepy.   
 2) trainset for social bots detection: labled data created by us bying merging several open source datasets from 
 https://botometer.iuni.iu.edu/bot-repository/datasets.html  
