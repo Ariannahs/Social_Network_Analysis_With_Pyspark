@@ -1,6 +1,4 @@
 ## Network Study on the Impact of Social Bots on Public Opinion Polls  
-##### CS5344 BigData Final Project - Group 2  
-
    
 ### Introduction  
   
@@ -23,11 +21,11 @@ This is a scraped dataset using Twitter API contains more than 300, 000 tweets c
 https://www.kaggle.com/moooozzz/uk-general-elections-2019-twitter-replies/download/d9605jnsmJzxiElRfmA2%2Fversions%2FwQuM603sN8oCEFqejtwX%2Ffiles%2Ftweets_json.json?datasetVersionNumber=1
 
 2. Other data source:  
-1)Scrapped Tweets: scraped data containing historical tweets that were discussing the UK election or Brexit during that period with GetOldTweets3 python package. In addition to the scrapped tweets, the account’s information such as number of friend count, follower count are also collected using Twitter API with Tweepy. 
-2)trainset for social bots detection: labled data created by us bying merging several open source datasets from 
+1) Scrapped Tweets: scraped data containing historical tweets that were discussing the UK election or Brexit during that period with GetOldTweets3 python package. In addition to the scrapped tweets, the account’s information such as number of friend count, follower count are also collected using Twitter API with Tweepy.   
+2) trainset for social bots detection: labled data created by us bying merging several open source datasets from 
 https://botometer.iuni.iu.edu/bot-repository/datasets.html  
-3)mp party dataset: scarped data containing twitter account information of candidates. Parties information are manually labeled by us.   
-4)UK Poll dataset: scarped data containing public poll results in a daily basis used in Sentiment Analysis.  
+3) mp party dataset: scarped data containing twitter account information of candidates. Parties information are manually labeled by us.   
+4) UK Poll dataset: scarped data containing public poll results in a daily basis used in Sentiment Analysis.  
 
   
   
